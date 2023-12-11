@@ -66,5 +66,6 @@ class HBNBCommand(cmd.Cmd):
             retl.append(curly_braces.group())
             return retl
 
+
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
